@@ -26,7 +26,7 @@ export const robots = [
     gender: 'f'
   },
   {
-    id: 5,
+    id: 6,
     name: 'Anmol  Thake',
     gender: 'm'
   },
