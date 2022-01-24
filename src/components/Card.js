@@ -1,12 +1,14 @@
 import React from "react";
 
-const Card = ({name, email, id}) => {
+
+const Card = ({name, gender, id}) => {
+    var url = (gender=='m')? `${id}?set=set3` : `${id}?set=set4`;
+    const idurl = id+url;
     return (
         <div className="tc bg-light-green dib br3 pa3 ma2 grow shadow-3">
-            <img alt="robots" src={`https://robohash.org/${id}?200x200`}/>
+            <img alt="robots" src={`https://robohash.org/${idurl}`} width="200" height="200"/>
             <div>
                 <h2>{name}</h2>
-                <p>{email}</p>
             </div>
         </div>
     )
