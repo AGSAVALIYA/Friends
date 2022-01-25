@@ -27,7 +27,7 @@ export const robots = [
   },
   {
     id: 6,
-    name: 'Anmol  Thake',
+    name: 'Anmol  Thaker',
     gender: 'm'
   },
   {
@@ -48,6 +48,11 @@ export const robots = [
   {
     id: 10,
     name: 'Ved Mota',
+    gender: 'm'
+  },
+  {
+    id: 11,
+    name: 'Swaraj Dusane',
     gender: 'm'
   }
 ];
