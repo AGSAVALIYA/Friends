@@ -18,3 +18,7 @@ h1 {
   flex-direction: column;
   height: 100vh;
 }
+a {
+  color: inherit; 
+  text-decoration: inherit; 
+}

@@ -9,7 +9,7 @@ const Card = ({name, gender, id, insta}) => {
             <img alt="robots" src={`https://robohash.org/${idurl}`} width="200" height="200"/>
             <div>
                 <h2>{name}</h2>
-                <h3><a href={`https://instagram.com/${insta}`}>@{insta}</a></h3>
+                <h3><a class="fa fa-instagram" href={`https://instagram.com/${insta}`}> {insta}</a></h3>
             </div>
         </div>
     )
