@@ -2,7 +2,8 @@ export const robots = [
   {
     id: 1,
     name: 'Akshit Savaliya',
-    gender: 'm'
+    gender: 'm',
+    insta: 'ags.999'
   },
   {
     id: 2,
@@ -23,7 +24,8 @@ export const robots = [
   {
     id: 5,
     name: 'Jiya Pancholi',
-    gender: 'f'
+    gender: 'f',
+    insta: 'jiya_pancholi'
   },
   {
     id: 6,

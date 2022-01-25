@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Card = ({name, gender, id}) => {
+const Card = ({name, gender, id, insta}) => {
     var url = (gender=='m')? `${id}?set=set3` : `${id}?set=set4`;
     const idurl = id+url;
     return (
@@ -9,6 +9,7 @@ const Card = ({name, gender, id}) => {
             <img alt="robots" src={`https://robohash.org/${idurl}`} width="200" height="200"/>
             <div>
                 <h2>{name}</h2>
+                <h3><a href={`https://instagram.com/${insta}`}>@{insta}</a></h3>
             </div>
         </div>
     )
