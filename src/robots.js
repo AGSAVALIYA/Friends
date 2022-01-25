@@ -68,7 +68,7 @@ export const robots = [
   {
     id: 14,
     name: ' Shruti Vasa',
-    gender: 'm'
+    gender: 'f'
   },
   {
     id: 15,
