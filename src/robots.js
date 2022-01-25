@@ -54,5 +54,30 @@ export const robots = [
     id: 11,
     name: 'Swaraj Dusane',
     gender: 'm'
+  },
+  {
+    id: 12,
+    name: 'Arya Sutar',
+    gender: 'm'
+  },
+  {
+    id: 13,
+    name: 'Sagar Salvi',
+    gender: 'm'
+  },
+  {
+    id: 14,
+    name: ' Shruti Vasa',
+    gender: 'm'
+  },
+  {
+    id: 15,
+    name: 'Yash Mandiyar',
+    gender: 'm'
+  },
+  {
+    id: 16,
+    name: 'Heth Katelia',
+    gender: 'm'
   }
 ];
