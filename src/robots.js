@@ -6,7 +6,7 @@ export const robots = [
   },
   {
     id: 2,
-    name: 'Dhruv Chedda',
+    name: 'Dhruv Chheda',
     gender: 'm'
   },
   {
