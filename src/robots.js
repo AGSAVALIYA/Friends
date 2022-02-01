@@ -85,6 +85,7 @@ export const robots = [
   {
     id: 17,
     name: 'Sejal Kamaliya',
-    gender: 'f'
+    gender: 'f',
+    insta: 'sejal9703_'
   }
 ];
