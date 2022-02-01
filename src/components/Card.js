@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Card = ({name, gender, id, insta}) => {
-    var url = (gender=='m')? `${id}?set=set3` : `${id}?set=set4`;
+    var url = (gender=='m')? `${name}` : `${id}?set=set4`;
     const idurl = id+url;
     return (
         <div className="tc bg-light-green dib br3 pa3 ma2 grow shadow-3" style={{height: 'auto'}}>
