@@ -81,5 +81,10 @@ export const robots = [
     id: 16,
     name: 'Heth Katelia',
     gender: 'm'
+  },
+  {
+    id: 17,
+    name: 'Sejal Kamaliya',
+    gender: 'f'
   }
 ];
