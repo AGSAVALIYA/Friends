@@ -11,17 +11,17 @@ class App extends Component{
     constructor(){
         super()
         this.state = {
-            robots: robots,
+            robots: [],
             searchfield: ''
         };
     }
 
-    // componentDidMount() {
-    //     fetch('https://jsonplaceholder.typicode.com/users')
-    //     .then(response => {return response.json()})
-    //     .then(robots =>{this.setState({robots: robots})});
+    componentDidMount() {
+        fetch('https://opensheet.elk.sh/1QXbwxIsMzSVokqGk9dGNt_nzVRldMu7_o7p0Q0Y0OPI/1')
+        .then(response => {return response.json()})
+        .then(robots =>{this.setState({robots: robots})});
         
-    //   }
+      }
 
     onSearchChange = (event) => { 
         this.setState({ searchfield: event.target.value})
